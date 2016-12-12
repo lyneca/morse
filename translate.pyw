@@ -93,7 +93,7 @@ def dit_pause():
     pass
 
 if __name__ == '__main__':
-    ser = serial.Serial('COM3', 9600, timeout=1)
+    ser = serial.Serial('COM4', 9600, timeout=1)
     while True:
         try:
             state = ser.read().decode('utf-8')
